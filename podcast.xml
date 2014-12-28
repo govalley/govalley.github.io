@@ -25,12 +25,12 @@
  {% for post in site.posts limit:10 %}
     <item>
         <title>{{ post.title }}</title>
-        {% if post.series %}
-        <itunes:subtitle>{{ post.series }}: {{ post.title }}</itunes:subtitle>
+        {% if post.category %}
+        <itunes:subtitle>{{ post.category }}: {{ post.title }}</itunes:subtitle>
         {% endif %}
         <itunes:author>{{ post.speaker }}</itunes:author>
         <itunes:summary>
-            {% if post.series %}Part {{ post.part }} of the {{ post.series }} series. {% endif %}
+            {% if post.category %}Part {{ post.part }} of the {{ post.category }} series. {% endif %}
             By {{ post.speaker }}
         </itunes:summary>
         <itunes:image href="{{ site.url }}/images/{{ post.image }}" />

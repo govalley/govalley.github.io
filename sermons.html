@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% for category in site.categories reversed %}
-    <h1>{{ category[1][0].series | upcase }}</h1>
+    <h1>{{ category[0] | upcase }}</h1>
     {% if category[1][0].image %}
     <div class="imagebox"><img src="/images/{{ category[1][0].image }}" height="200px" /></div>
     {% endif %}

@@ -7,7 +7,7 @@
         <meta property="og:title" content="{{ page.title }}" />
         <meta property="og:site_name" content="Valley Church Podcast" />
         <meta property="og:url" content="{{ site.url }}/{{ page.url }}" />
-        <meta property="og:description" content="{{ page.title }}. {% if page.series %}Part {{ page.part }} of the {{ page.series }} series.{% endif %}" />
+        <meta property="og:description" content="{{ page.title }}. {% if page.category %}Part {{ page.part }} of the {{ page.category }} series.{% endif %}" />
         <meta property="og:image" content="{{ site.url }}/images/{{ page.image }}" />
     </head>
     <body>
@@ -28,8 +28,8 @@
         <article>
             <header>
                 <h1>{{ page.title }}</h1>
-                {% if page.series %}
-                    <h2>Part {{ page.part }} of the {{ page.series }} series.</h2>
+                {% if page.category %}
+                    <h2>Part {{ page.part }} of the {{ page.category }} series.</h2>
                 {% endif %}
             </header>
             By {{ page.speaker }}
@@ -51,8 +51,8 @@
 
             {{ content }}
 
-            {% if page.series != page.title %}
-            {% if page.series == page.next.series %}
+            {% if page.category != page.title %}
+            {% if page.category == page.next.category %}
             <p>Next in the series: <a href="{{ page.next.url }}">{{ page.next.title }}</a></p>
             {% endif %}
             {% endif %}
