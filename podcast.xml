@@ -1,0 +1,47 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+
+<channel>
+    <title>Valley Church</title>
+    <link>http://www.govalley.org/</link>
+    <language>en</language>
+    <copyright>&#xA9; 2014 Valley Church</copyright>
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+    <itunes:subtitle>Sermons from Valley Church</itunes:subtitle>
+    <itunes:author>Michael Stufflebeam</itunes:author>
+    <itunes:keywords>may,valley,church,michael,stufflebeam,christian,missionary,alliance</itunes:keywords>
+    <itunes:summary>Sermons from Valley Church.</itunes:summary>
+    <description>Sermons from Valley Church.</description>
+    <itunes:owner>
+        <itunes:name>Valley Church</itunes:name>
+        <itunes:email>welcome@govalley.org</itunes:email>
+    </itunes:owner>
+    <itunes:image href="{{ site.url }}/images/logo.png" />
+    <itunes:category text="Religion &amp; Spirituality" />
+    <itunes:category text="Christianity" />
+
+ {% for post in site.posts limit:10 %}
+    <item>
+        <title>{{ post.title }}</title>
+        {% if post.series %}
+        <itunes:subtitle>{{ post.series }}: {{ post.title }}</itunes:subtitle>
+        {% endif %}
+        <itunes:author>{{ post.speaker }}</itunes:author>
+        <itunes:summary>
+            {% if post.series %}Part {{ post.part }} of the {{ post.series }} series. {% endif %}
+            By {{ post.speaker }}
+        </itunes:summary>
+        <itunes:image href="{{ site.url }}/images/{{ post.image }}" />
+        <enclosure url="{{ site.cdn }}/{{ post.mp3 }}" length="{{ post.size }}" type="audio/mpeg" />
+        <guid>{{ post.mp3 }}</guid>
+        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+        <itunes:duration>{{ post.duration }}</itunes:duration>
+    </item>
+
+ {% endfor %}
+
+</channel>
+</rss>

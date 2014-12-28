@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{ page.title }} - Valley Church</title>
+        {% include head.html %}
+    </head>
+    <body>
+        {% if page.image %}
+        <div class="imagebox"><img src="/images/{{ page.image }}" height="200px" /></div>
+        {% endif %}
+
+        <article>
+            <header>
+                <h1>{{ page.title }}</h1>
+                {% if page.series %}
+                    <h2>Part {{ page.part }} of the {{ page.series }} series.</h2>
+                {% endif %}
+            </header>
+            By {{ page.speaker }}
+            On {{ page.date | date: "%b %d, %Y" }}
+
+            <p>
+                <audio controls="controls">
+                    <source src="{{ site.cdn }}/{{ page.mp3 }}" type="audio/mpeg" />
+                    Your browser does not support the audio tag. Please download the MP3.
+                </audio>
+            </p>
+
+            <p><a href="{{ site.cdn }}/{{ page.mp3 }}">Download MP3</a></p>
+
+            {{ content }}
+
+            <p>Back to <a href="/sermons.html">All Sermons</a></div>
+        </article>
+    </body>
+</html>
+
+

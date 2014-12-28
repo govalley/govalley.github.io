@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+{% for category in site.categories reversed %}
+    <h1>{{ category[1][0].series | upcase }}</h1>
+    {% if category[1][0].image %}
+    <div class="imagebox"><img src="/images/{{ category[1][0].image }}" height="200px" /></div>
+    {% endif %}
+    <table>
+        {% for post in category[1] reversed %}
+        <tr>
+            <td><span class="count">{% if post.part %}{{ post.part }}{% else %}{{ forloop.index }}{% endif %}</span></td>
+            <td>{{ post.title }}</td>
+            <td>{{ post.speaker }}</td>
+            <td>{{ post.date | date: "%b %d, %Y" }}</td>
+            <td><a href="{{ post.url }}">Play ({{ post.duration }})</a></td>
+            <td><a href="{{ site.cdn }}/{{ post.mp3 }}">Download</a></td>
+        </tr>
+        {% endfor %}
+    </table>
+{% endfor %}
