@@ -1,3 +1,10 @@
+exclude: [README.md]
+
 encoding: utf-8
-url: http://govalley.github.io
+timezone: America/Los_Angeles
+
+url: http://media.govalley.org
 cdn: https://d2qybxhkdu1nl.cloudfront.net
+
+prose:
+    media: "images"
