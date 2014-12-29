@@ -4,9 +4,10 @@
         <title>{{ page.title }} - Valley Church</title>
         {% include head.html %}
 
+        <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
         <meta property="og:title" content="{{ page.title }}" />
         <meta property="og:site_name" content="Valley Church Podcast" />
-        <meta property="og:url" content="{{ site.url }}/{{ page.url }}" />
+        <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
         <meta property="og:description" content="{{ page.title }}. {% if page.category %}Part {{ page.part }} of the {{ page.category }} series.{% endif %}" />
         <meta property="og:image" content="{{ site.url }}/images/{{ page.image }}" />
     </head>
