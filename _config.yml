@@ -5,6 +5,8 @@ timezone: America/Los_Angeles
 
 url: http://media.govalley.org
 cdn: https://d2qybxhkdu1nl.cloudfront.net
+permalink: /:year/:month/:day/:title.html
+
 
 defaults:
     -
@@ -13,7 +15,7 @@ defaults:
             type: "posts"
         values:
             layout: "podcast"
-            permalink: /podcast/:year/:month/:day/:title.html
+
 
 prose:
     media: "images"
