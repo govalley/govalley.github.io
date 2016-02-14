@@ -1,6 +1,6 @@
 ---
 title: "DR Mission Report"
-category: "International Missions"
+category: "DR Mission Report"
 speaker: Amber Ross, et al.
 mp3: 20160214.mp3
 size: 14420521
