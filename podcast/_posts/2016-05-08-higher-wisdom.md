@@ -5,5 +5,5 @@ speaker: Enrique Prado
 mp3: 20160508.mp3
 size: 7314321
 duration: "27:42"
-image: the-higher-widsom.jpg
+image: the-higher-wisdom.jpg
 ---
