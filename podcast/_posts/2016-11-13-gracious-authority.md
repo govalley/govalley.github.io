@@ -1,6 +1,6 @@
 ---
 title: "Gracious Authority"
-category: "Who is Jesus"
+category: "The Gospel of Mark"
 speaker: Dwight Smith
 mp3: 20161113.mp3
 size: 19176081

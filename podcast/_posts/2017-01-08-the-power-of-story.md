@@ -1,6 +1,6 @@
 ---
 title: "The Power of Story"
-category: "Who is Jesus"
+category: "The Gospel of Mark"
 speaker: Dwight Smith
 mp3: 20170108.mp3
 size: 15286935

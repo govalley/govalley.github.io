@@ -1,6 +1,6 @@
 ---
 title: "Mystery Revealed"
-category: "Who is Jesus"
+category: "The Gospel of Mark"
 speaker: Dwight Smith
 mp3: 20170115.mp3
 size: 19549587

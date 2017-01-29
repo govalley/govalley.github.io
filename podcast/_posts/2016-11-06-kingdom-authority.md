@@ -1,6 +1,6 @@
 ---
 title: "Kingdom Authority"
-category: "Who is Jesus"
+category: "The Gospel of Mark"
 speaker: Dwight Smith
 mp3: 20161106.mp3
 size: 14031926

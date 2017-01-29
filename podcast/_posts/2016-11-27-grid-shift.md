@@ -1,6 +1,6 @@
 ---
 title: "Grid Shift"
-category: "Who is Jesus"
+category: "The Gospel of Mark"
 speaker: Dwight Smith
 mp3: 20161127.mp3
 size: 12262046
