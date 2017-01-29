@@ -33,7 +33,7 @@
             {% if post.category %}Part {{ post.part }} of the {{ post.category }} series. {% endif %}
             By {{ post.speaker }}
         </itunes:summary>
-        <itunes:image href="{{ site.url }}/images/{{ post.image }}" />
+        <itunes:image href="{{ site.url }}/images/logo.png" />
         <enclosure url="{{ site.cdn }}/{{ post.mp3 }}" length="{{ post.size }}" type="audio/mpeg" />
         <guid>{{ post.mp3 }}</guid>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>

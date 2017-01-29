@@ -9,7 +9,7 @@
         <meta property="og:site_name" content="Valley Church Podcast" />
         <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
         <meta property="og:description" content="{{ page.title }}. {% if page.category %}Part {{ page.part }} of the {{ page.category }} series.{% endif %}" />
-        <meta property="og:image" content="{{ site.url }}/images/{{ page.image }}" />
+        <meta property="og:image" content="{{ site.url }}/images/logo.png" />
     </head>
     <body>
         <div id="fb-root"></div>
@@ -21,10 +21,6 @@
                   fjs.parentNode.insertBefore(js, fjs);
                   }(document, 'script', 'facebook-jssdk'));
         </script>
-
-        {% if page.image %}
-        <div class="imagebox"><img src="/images/{{ page.image }}" height="200px" /></div>
-        {% endif %}
 
         <article>
             <header>
