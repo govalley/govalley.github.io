@@ -1,6 +1,6 @@
 ---
 title: "The Offense of Jesus"
-category: "The Gospel of Mark"
+category: "Mark's Good News"
 speaker: Dwight Smith
 mp3: 20161120.mp3
 size: 12180866

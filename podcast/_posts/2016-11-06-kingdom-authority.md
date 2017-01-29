@@ -1,6 +1,6 @@
 ---
 title: "Kingdom Authority"
-category: "The Gospel of Mark"
+category: "Mark's Good News"
 speaker: Dwight Smith
 mp3: 20161106.mp3
 size: 14031926

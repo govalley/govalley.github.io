@@ -1,6 +1,6 @@
 ---
 title: "Mystery Revealed"
-category: "The Gospel of Mark"
+category: "Mark's Good News"
 speaker: Dwight Smith
 mp3: 20170115.mp3
 size: 19549587

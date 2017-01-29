@@ -1,6 +1,6 @@
 ---
 title: "Grid Shift"
-category: "The Gospel of Mark"
+category: "Mark's Good News"
 speaker: Dwight Smith
 mp3: 20161127.mp3
 size: 12262046
