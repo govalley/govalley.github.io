@@ -1,6 +1,6 @@
 ---
 title: "Bright Hope World"
-category: "Bright Hope World"
+category: "Kevin from Bright Hope World"
 speaker: Kevin Honoré
 mp3: 20150607.mp3
 size: 7951445
