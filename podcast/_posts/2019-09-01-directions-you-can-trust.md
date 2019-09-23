@@ -1,6 +1,6 @@
 ---
 title: "Directions You Can Trust"
-category: "Gospel of John"
+category: "The Gospel of John"
 speaker: Charles Smith
 mp3: 20190901.mp3
 size: 42311808

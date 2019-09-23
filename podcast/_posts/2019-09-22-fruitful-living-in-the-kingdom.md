@@ -1,6 +1,6 @@
 ---
 title: "Fruitful Living in the Kingdom"
-category: "Gospel of John"
+category: "The Gospel of John"
 speaker: Charles Smith
 mp3: 20190922.mp3
 size: 41075499

@@ -1,6 +1,6 @@
 ---
 title: "The Curious Case of Wet Feet & Hard Hearts"
-category: "Gospel of John"
+category: "The Gospel of John"
 speaker: Charles Smith
 mp3: 20190818.mp3
 size: 42184832
