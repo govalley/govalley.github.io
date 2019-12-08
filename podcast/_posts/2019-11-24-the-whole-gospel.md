@@ -1,5 +1,5 @@
 ---
-title: "The Whole Gospel
+title: "The Whole Gospel"
 category: "The Gospel of John"
 speaker: Charles Smith
 mp3: 20191124.mp3

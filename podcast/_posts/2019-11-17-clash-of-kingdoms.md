@@ -1,5 +1,5 @@
 ---
-title: "Clash of Kingdoms
+title: "Clash of Kingdoms"
 category: "The Gospel of John"
 speaker: Charles Smith
 mp3: 20191117.mp3

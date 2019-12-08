@@ -1,5 +1,5 @@
 ---
-title: "The Work of the Holy Spirit
+title: "The Work of the Holy Spirit"
 category: "The Gospel of John"
 speaker: Charles Smith
 mp3: 20191006.mp3

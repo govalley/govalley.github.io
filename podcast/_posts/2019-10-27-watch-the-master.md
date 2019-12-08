@@ -1,5 +1,5 @@
 ---
-title: "Watch the Master
+title: "Watch the Master"
 category: "The Gospel of John"
 speaker: Charles Smith
 mp3: 20191027.mp3

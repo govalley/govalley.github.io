@@ -1,5 +1,5 @@
 ---
-title: "Teach us to Pray
+title: "Teach us to Pray"
 category: "The Gospel of John"
 speaker: Charles Smith
 mp3: 20191020.mp3

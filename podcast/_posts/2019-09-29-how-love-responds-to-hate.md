@@ -1,5 +1,5 @@
 ---
-title: "How Love Responds to Hate
+title: "How Love Responds to Hate"
 category: "The Gospel of John"
 speaker: Charles Smith
 mp3: 20190929.mp3

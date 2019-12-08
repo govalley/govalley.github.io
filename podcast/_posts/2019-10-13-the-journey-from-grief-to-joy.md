@@ -1,5 +1,5 @@
 ---
-title: "The Journey from Grief to Joy
+title: "The Journey from Grief to Joy"
 category: "The Gospel of John"
 speaker: Charles Smith
 mp3: 20191013.mp3
