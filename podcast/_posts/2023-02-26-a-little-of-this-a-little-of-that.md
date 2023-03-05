@@ -1,6 +1,6 @@
 ---
-title: "Woe to Go"
-category: "A Little of This, A Little of That"
+title: "A Little of This, A Little of That"
+category: "A Prophecy"
 speaker: Charles Smith
 mp3: 20230223.mp3
 size: 51184043
