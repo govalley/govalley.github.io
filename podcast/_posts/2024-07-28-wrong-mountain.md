@@ -1,6 +1,6 @@
 ---
 title: "Wrong Mountain"
-category: "Wrong Mountain"
+category: "Mountains & Valleys"
 speaker: Janice Malone
 mp3: 20240728.mp3
 size: 20786902
