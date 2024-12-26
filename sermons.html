@@ -12,7 +12,7 @@ layout: default
             <td>{{ post.speaker }}</td>
             <td>{{ post.date | date: "%b %d, %Y" }}</td>
             <td><a href="{{ post.url }}">Play ({{ post.duration }})</a></td>
-            <td><a href="{{ site.cdn }}/{{ post.mp3 }}">Download</a></td>
+            <td><a href="{{ site.cdn }}/sermons/{{ post.mp3 }}">Download</a></td>
         </tr>
         {% endfor %}
     </table>

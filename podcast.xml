@@ -34,7 +34,7 @@
             By {{ post.speaker }}
         </itunes:summary>
         <itunes:image href="{{ site.url }}/images/logo.png" />
-        <enclosure url="{{ site.cdn }}/{{ post.mp3 }}" length="{{ post.size }}" type="audio/mpeg" />
+        <enclosure url="{{ site.cdn }}/sermons/{{ post.mp3 }}" length="{{ post.size }}" type="audio/mpeg" />
         <guid>{{ post.mp3 }}</guid>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <itunes:duration>{{ post.duration }}</itunes:duration>
